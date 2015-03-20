@@ -1164,7 +1164,7 @@
             basicBot.connectAPI();
             API.moderateDeleteChat = function (cid) {
                 $.ajax({
-                    url: "https://plug.dj/_/chat/" + cid,
+                    url: "https://plug.dj/serbian-7/chat/" + cid,
                     type: "DELETE"
                 })
             };
@@ -1876,7 +1876,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         if (typeof basicBot.settings.fbLink === "string")
-                            API.sendChat(subChat(basicBot.chat.facebook, {link: basicBot.settings.fbLink}));
+                            API.sendChat(fb stranica https://www.facebook.com/4SeasonsFour);
                     }
                 }
             },
