@@ -1876,7 +1876,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         if (typeof basicBot.settings.fbLink === "string")
-                            API.sendChat(fb stranica https://www.facebook.com/4SeasonsFour);
+                            API.sendChat(fb stranica "https://www.facebook.com/4SeasonsFour" );
                     }
                 }
             },
