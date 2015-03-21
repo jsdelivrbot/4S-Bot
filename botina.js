@@ -181,7 +181,7 @@
     var basicBot = {
         version: "2.2.1",
         status: false,
-        name: "4S Bot",
+        name: "4SBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/igorkandic/4S-Bot/master/botina.js",
         cmdLink: "https://github.com/igorkandic/4S-Bot/blob/master/komande.md",
@@ -191,7 +191,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "4S Bot",
+            botName: "4SBot",
             language: "english",
             chatLink: "https://raw.githubusercontent.com/igorkandic/4S-Bot/master/sr.json",
             startupCap: 200, // 1-200
