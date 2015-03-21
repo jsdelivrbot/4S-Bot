@@ -183,7 +183,7 @@
         status: false,
         name: "4SBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/igorkandic/4S-Bot/master/botina.js",
+        scriptLink: "https://raw.githubusercontent.com/igorkandic/4S-Bot/master/botina.js",
         cmdLink: "https://github.com/igorkandic/4S-Bot/blob/master/komande.md",
         chatLink: "https://raw.githubusercontent.com/igorkandic/4S-Bot/master/sr.json",
         chat: null,
