@@ -101,8 +101,8 @@ User
 |!eta | | shows how long before you reach the booth |
 |!fb | | links to the room's Facebook page (if set in the settings) |
 |!pomoc | | links to an image to help get people started on plug |
-|!udji | | join the roulette if it's up |
-|!izadji | | leave the roulette if you joined |
+|!join | | join the roulette if it's up |
+|!leave | | leave the roulette if you joined |
 |!link | | when the user is the DJ, give a link to the current song |
 |!op | | links to the OverPlayed list (if set in the settings) |
 |!ping | | pong! |
