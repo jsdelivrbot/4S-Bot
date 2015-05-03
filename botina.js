@@ -192,7 +192,7 @@
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "4SBot",
-            language: "english",
+            language: "serbian",
             chatLink: "https://raw.githubusercontent.com/igorkandic/4S-Bot/master/sr.json",
             startupCap: 200, // 1-200
             startupVolume: 50, // 0-100
@@ -261,8 +261,8 @@
             autodisableInterval: null,
             autodisableFunc: function () {
                 if (basicBot.status && basicBot.settings.autodisable) {
-                    API.sendChat('!afkdisable');
-                    API.sendChat('!joindisable');
+                    API.sendChat('!link');
+                    API.sendChat('!rulet');
                 }
             },
             queueing: 0,
