@@ -185,7 +185,7 @@
         loggedInID: null,
         scriptLink: "https://raw.githubusercontent.com/igorkandic/4S-Bot/master/botina.js",
         cmdLink: "https://github.com/igorkandic/4S-Bot/blob/master/komande.md",
-        chatLink: "https://raw.githubusercontent.com/igorkandic/4S-Bot/master/sr.json",
+        chatLink: "https://raw.githubusercontent.com/Yemasthui/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +193,7 @@
         settings: {
             botName: "4SBot",
             language: "english",
-            chatLink: "https://raw.githubusercontent.com/igorkandic/4S-Bot/master/sr.json",
+            chatLink: "https://raw.githubusercontent.com/Yemasthui/basicBot/master/lang/en.json",
             startupCap: 200, // 1-200
             startupVolume: 50, // 0-100
             startupEmoji: true, // true or false
