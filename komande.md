@@ -97,7 +97,7 @@ User
 |!komande | | link za listu komandi |
 |!cookie | (@user) | give a cookie to user |
 |!dclookup / !dc | | use dclookup on yourself |
-|!znakovi | | a link to a list with emoji's |
+|!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
 |!fb | | links to the room's Facebook page (if set in the settings) |
 |!pomoc | | links to an image to help get people started on plug |
