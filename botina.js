@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://raw.githubusercontent.com/igorkandic/4S-Bot/master/jezici.json", function (json) {
+        $.get("https://github.com/Yemasthui/basicBot/blob/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -192,7 +192,7 @@
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "4SBot",
-            language: "serbian",
+            language: "english",
             chatLink: "https://raw.githubusercontent.com/igorkandic/4S-Bot/master/sr.json",
             startupCap: 200, // 1-200
             startupVolume: 50, // 0-100
@@ -1827,7 +1827,7 @@
             },*/
 
             emojiCommand: {
-                command: 'znakovi',
+                command: 'emoji',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -1916,7 +1916,7 @@
             },
 
             joinCommand: {
-                command: 'udji',
+                command: 'join',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2016,7 +2016,7 @@
             },
 
             leaveCommand: {
-                command: 'izadji',
+                command: 'leave',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
